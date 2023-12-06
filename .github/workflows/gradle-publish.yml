@@ -8,6 +8,7 @@
 name: Gradle Package
 
 on:
+  repository_dispatch:
   release:
     types: [created]
 
